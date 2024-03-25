@@ -10,7 +10,7 @@ class ProductManager {
      * @param {number} price
      * @param {string} thumbnail
      * @param {string} code
-     * @param {numbre} stock
+     * @param {number} stock
      */
     addProduct(title, description, price, thumbnail, code, stock) {
       const producto = {
